@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/49176/IdeaProjects/TestNG/test/java">
+       <classes>
+           <class name="class1.Priority">
+               <methods>
+                   <include name="Atest"/>
+               </methods>
+           </class>
+           <class name="class2.HardAssertions">
+               <methods>
+                   <include name="verifyTheErrorMessage"/>
+               </methods>
+           </class>
+
+       </classes>
+    </test>
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/49176/IdeaProjects/TestNG/src/test/java/class2/SoftAssertions.java">
+        <classes>
+            <class name="class1.annotations"></class>
+            <class name="class1.enableDisable"></class>
+        </classes>
+    </test>
+</suite>
